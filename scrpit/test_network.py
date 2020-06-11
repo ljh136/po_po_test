@@ -24,3 +24,9 @@ class TestNetwork:
         self.networkPage.click_network()
         self.networkPage.click_first_network()
         self.networkPage.click_3g()
+        
+    def test_mobile_network_4g(self):
+        self.networkPage.click_more()
+        self.networkPage.click_network()
+        self.networkPage.click_first_network()
+        self.networkPage.click_3g()
