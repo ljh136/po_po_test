@@ -17,3 +17,5 @@ class TestDisplay:
         # 点击返回
         self.dispaly_page.click_back()
 #1
+#2
+#3
